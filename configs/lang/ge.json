@@ -2,9 +2,10 @@
   "header":{
     "pizza":"პიცა",
     "itCouldNotBeTastier": "მეტად გემრიელი ვერ იქნება!",
-    "login": "შესვლა"
+    "login": "შესვლა",
+    "language": "ენა"
   },
-  "nav": {
-    "cart":"კალათა"
+  "filters": {
+    "allPizzas": "ყველა პიცა"
   }
 }

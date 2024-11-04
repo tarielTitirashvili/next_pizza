@@ -1,15 +1,14 @@
 import { useTranslations } from 'next-intl'
-import { Button } from '@/components/ui/button'
+import { Container, Title } from '@/components/shared'
 
 export default function Home() {
   const t = useTranslations()
 
   return (
-    <div>
-      <h1>Home</h1>
-      <Button variant={'outline'}>
-        {t('nav.cart')}
-      </Button>
-    </div>
+    <>
+      <Container className='px-5 pt-8'>
+        <Title text={t('filters.allPizzas')} size='lg' className='font-extrabold' />
+      </Container>
+    </>
   )
 }

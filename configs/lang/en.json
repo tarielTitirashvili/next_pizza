@@ -2,9 +2,10 @@
   "header":{
     "pizza": "Pizza",
     "itCouldNotBeTastier": "it couldn't be tastier!",
-    "login": "Login"
+    "login": "Login",
+    "language": "language"
   },
-  "nav": {
-    "cart": "Cart"
+  "filters": {
+    "allPizzas": "all pizzas"
   }
 }
