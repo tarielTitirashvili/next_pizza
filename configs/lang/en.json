@@ -11,6 +11,8 @@
     "Breakfast": "Breakfast",
     "Appetizers": "Appetizers",
     "Cocktails": "Cocktails",
-    "Drinks": "Drinks"
+    "Drinks": "Drinks",
+    "sort": "sort",
+    "popular": "popular"
   }
 }
