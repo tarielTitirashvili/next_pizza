@@ -28,8 +28,10 @@ export default async function RootLayout(props: TPropsLayout) {
     <html lang={lang}>
       <NextIntlClientProvider messages={messages}>
         <body className={`${font.variable} antialiased`}>
-          <LanguageSwitcher lang={lang} />
-          {children}
+          <main className='min-h-screen'>
+            <LanguageSwitcher lang={lang} />
+            {children}
+          </main>
         </body>
       </NextIntlClientProvider>
     </html>
