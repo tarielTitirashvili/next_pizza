@@ -1,7 +1,8 @@
 {
   "header":{
     "pizza":"პიცა",
-    "itCouldNotBeTastier": "მეტად გემრიელი ვერ იქნება!"
+    "itCouldNotBeTastier": "მეტად გემრიელი ვერ იქნება!",
+    "login": "შესვლა"
   },
   "nav": {
     "cart":"კალათა"

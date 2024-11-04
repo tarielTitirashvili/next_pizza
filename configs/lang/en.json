@@ -1,7 +1,8 @@
 {
   "header":{
     "pizza": "Pizza",
-    "itCouldNotBeTastier": "it couldn't be tastier!"
+    "itCouldNotBeTastier": "it couldn't be tastier!",
+    "login": "Login"
   },
   "nav": {
     "cart": "Cart"

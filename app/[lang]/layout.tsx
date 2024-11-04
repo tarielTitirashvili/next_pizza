@@ -4,7 +4,7 @@ import './globals.css'
 import { TPropsLayout } from './types'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
-import Header from '@/components/shared/header'
+import { Header } from '@/components/shared'
 
 const font = Nunito({
   subsets: ['cyrillic'],
