@@ -1,7 +1,7 @@
 // app/_components/LocaleSwitcher.tsx
 'use client'
 
-import { ENUM_LANGUAGES, locales, usePathname, useRouter } from '../../../i18n.config'
+import { ENUM_LANGUAGES, locales, usePathname, useRouter } from '../../../../i18n.config'
 import LanguageTitle from './languageTitle'
 import { MouseEvent } from 'react'
 // import { test } from '../../../../../../../API/test'

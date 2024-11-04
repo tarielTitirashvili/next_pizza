@@ -1,10 +1,10 @@
 import type { Metadata } from 'next'
 import { Nunito } from 'next/font/google'
 import './globals.css'
-import LanguageSwitcher from './langSwitcher'
 import { TPropsLayout } from './types'
 import { NextIntlClientProvider } from 'next-intl'
 import { getMessages } from 'next-intl/server'
+import Header from '@/components/shared/header'
 
 const font = Nunito({
   subsets: ['cyrillic'],
@@ -29,7 +29,7 @@ export default async function RootLayout(props: TPropsLayout) {
       <NextIntlClientProvider messages={messages}>
         <body className={`${font.variable} antialiased`}>
           <main className='min-h-screen'>
-            <LanguageSwitcher lang={lang} />
+            <Header />
             {children}
           </main>
         </body>

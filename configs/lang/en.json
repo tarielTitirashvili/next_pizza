@@ -1,4 +1,8 @@
 {
+  "header":{
+    "pizza": "Pizza",
+    "itCouldNotBeTastier": "it couldn't be tastier!"
+  },
   "nav": {
     "cart": "Cart"
   }
