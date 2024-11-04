@@ -6,6 +6,11 @@
     "language": "language"
   },
   "filters": {
-    "allPizzas": "all pizzas"
+    "allPizzas": "all pizzas",
+    "pizzas": "pizzas",
+    "Breakfast": "Breakfast",
+    "Appetizers": "Appetizers",
+    "Cocktails": "Cocktails",
+    "Drinks": "Drinks"
   }
 }

@@ -6,6 +6,11 @@
     "language": "ენა"
   },
   "filters": {
-    "allPizzas": "ყველა პიცა"
+    "allPizzas": "ყველა პიცა",
+    "pizzas": "პიცები",
+    "Breakfast": "საუზმე",
+    "Appetizers": "აპეტაიზერი",
+    "Cocktails": "კოქტეილი",
+    "Drinks": "სასმელები"
   }
 }
