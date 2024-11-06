@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl'
-import { Title } from '@/components/shared'
+import { Container, Title } from '@/components/shared'
 import { TopBar } from '@/components/shared/topBar'
 
 export default function Home() {
@@ -7,13 +7,13 @@ export default function Home() {
 
   return (
     <>
-      <div className="px-5 pt-8">
+      <Container className="px-5 pt-8">
         <Title
           text={t('filters.allPizzas')}
           size="lg"
           className="font-extrabold"
         />
-      </div>
+      </Container>
       <TopBar />
     </>
   )
