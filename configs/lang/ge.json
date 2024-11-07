@@ -14,5 +14,8 @@
     "Drinks": "სასმელები",
     "sort": "დალაგება",
     "popular": "პოპილარული"
+  },
+  "sidebarFilters":{
+    "title": "ფილტრები"
   }
 }

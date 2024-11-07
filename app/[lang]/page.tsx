@@ -1,6 +1,7 @@
 import { useTranslations } from 'next-intl'
 import { Container, Title } from '@/components/shared'
 import { TopBar } from '@/components/shared/topBar'
+import Filters from '@/components/shared/filters'
 
 export default function Home() {
   const t = useTranslations()
@@ -15,6 +16,16 @@ export default function Home() {
         />
       </Container>
       <TopBar />
+      <Container>
+        <div className='flex gap-[60px]'>
+          <div className='w-[250px]'>
+            <Filters />
+          </div>
+          <div className='flex-1'>
+            products
+          </div>
+        </div>
+      </Container>
     </>
   )
 }

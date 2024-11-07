@@ -14,5 +14,8 @@
     "Drinks": "Drinks",
     "sort": "sort",
     "popular": "popular"
+  },
+  "sidebarFilters":{
+    "title": "filters"
   }
 }
