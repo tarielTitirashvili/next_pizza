@@ -16,6 +16,8 @@
     "popular": "პოპილარული"
   },
   "sidebarFilters":{
-    "title": "ფილტრები"
+    "title": "ფილტრები",
+    "editable": "აწყობადი",
+    "new": "ახალი"
   }
 }

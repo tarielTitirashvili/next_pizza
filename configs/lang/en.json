@@ -16,6 +16,8 @@
     "popular": "popular"
   },
   "sidebarFilters":{
-    "title": "filters"
+    "title": "filters",
+    "editable": "build-your-own",
+    "new": "new"
   }
 }
