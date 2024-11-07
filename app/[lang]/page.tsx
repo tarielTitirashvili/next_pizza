@@ -1,7 +1,6 @@
 import { useTranslations } from 'next-intl'
-import { Container, Title } from '@/components/shared'
+import { Container, Filters, Title } from '@/components/shared'
 import { TopBar } from '@/components/shared/topBar'
-import Filters from '@/components/shared/filters'
 
 export default function Home() {
   const t = useTranslations()

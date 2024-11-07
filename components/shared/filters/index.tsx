@@ -3,7 +3,7 @@ import { Title } from '../title'
 import { useTranslations } from 'next-intl'
 import { FilterCheckbox } from './checkbox'
 
-const Filters = () => {
+export const Filters = () => {
   const t = useTranslations()
   return (
     <div>
@@ -19,5 +19,3 @@ const Filters = () => {
     </div>
   )
 }
-
-export default Filters
