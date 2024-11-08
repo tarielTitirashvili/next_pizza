@@ -18,6 +18,7 @@
   "sidebarFilters":{
     "title": "ფილტრები",
     "editable": "აწყობადი",
-    "new": "ახალი"
+    "new": "ახალი",
+    "price": "ფასი"
   }
 }

@@ -18,6 +18,7 @@
   "sidebarFilters":{
     "title": "filters",
     "editable": "build-your-own",
-    "new": "new"
+    "new": "new",
+    "price": "price"
   }
 }
