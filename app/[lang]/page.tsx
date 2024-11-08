@@ -16,7 +16,7 @@ export default function Home() {
       </Container>
       <TopBar />
       <Container>
-        <div className='flex gap-[60px]'>
+        <div className='mt-8 flex gap-[60px]'>
           <div className='w-[250px]'>
             <Filters />
           </div>

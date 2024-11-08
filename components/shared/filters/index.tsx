@@ -14,7 +14,7 @@ export const Filters = () => {
       />
       <div className='flex flex-col gap-2'>
         <FilterCheckbox text={t('sidebarFilters.editable')} value='0'/>
-        <FilterCheckbox text={t('sidebarFilters.new')} value='0'/>
+        <FilterCheckbox text={t('sidebarFilters.new')} value='1'/>
       </div>
     </div>
   )
