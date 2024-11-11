@@ -19,6 +19,8 @@
     "title": "filters",
     "editable": "build-your-own",
     "new": "new",
-    "price": "price"
+    "price": "price",
+    "search": "search",
+    "ingredients": "ingredients"
   }
 }
